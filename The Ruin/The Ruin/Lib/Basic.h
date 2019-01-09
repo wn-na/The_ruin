@@ -3,7 +3,7 @@
 
 #define _CRT_SECURE_NO_WARNINGS
 
-// Çì´õÆÄÀÏ
+// í—¤ë”íŒŒì¼
 #include <conio.h>
 #include <math.h>
 #include <stdio.h>
@@ -14,7 +14,7 @@
 #include <Wincon.h>
 #include "Lib\Music.h"
 
-// »ö»ó Á¤ÀÇ
+// ìƒ‰ìƒ ì •ì˜
 typedef enum _Color {
 	Black = 0x00,
 	Blue = 0x01,
@@ -34,15 +34,16 @@ typedef enum _Color {
 	BrightWhite = 0x0F
 } Color;
 
-// ¸¶¿ì½º Å¸ÀÔ Á¤ÀÇ
+
+// ë§ˆìš°ìŠ¤ íƒ€ì… ì •ì˜
 typedef enum { NOCURSOR, SOLIDCURSOR, NORMALCURSOR } CURSOR_TYPE;
 
-// ÀÚ·áÇü ÀçÁ¤ÀÇ
+// ìë£Œí˜• ì¬ì •ì˜
 typedef unsigned char uchar;
 typedef unsigned int uint;
 typedef unsigned short ushort;
 
-// Å°º¸µå ¼ÂÆÃ
+// í‚¤ë³´ë“œ ì…‹íŒ…
 #define UP 72
 #define DOWN 80
 #define LEFT 75
